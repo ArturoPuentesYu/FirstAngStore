@@ -27,19 +27,6 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
 ## Git uploads
-CONFIGURAR UN PROYECTO Y HACER UNA NUEVA SUBIDA
-git init -b main -> Crear proyecto en la rama main
-git add * -> Añadir todo al proyecto
-git config --global user.email "EMAIL" -> Configurar email
-git config --global user.name "NOMBRE" -> Configurar nombre
-git remote add origin https://github.com/NOMBRE_USUARIO/NOMBRE_PROYECTO.git -> Añadimos nuestro repositorio de GitHub (ver imagen). Nos pedirá el usuario y la contraseña para sincronizar
-git push -u origin main
-
-git commit -m "Primera subida" -> Crear una subida con un comentario
-git pull -> Sincronizar los cambios en el servidor con los archivos locales
-git push -f -u origin main-> Ejecutar la subida
-
-HACER UNA SUBIDA CON EL PROYECTO YA CONFIGURADO
 git add *
 git commit -m "loquesea"
 git pull
